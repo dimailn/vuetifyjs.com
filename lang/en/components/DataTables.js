@@ -86,7 +86,8 @@ export default {
       hideHeaders: 'Hide the table headers',
       sortIcon: 'Use a custom sort icon, uses the same syntax as `v-icon`',
       nextIcon: 'Mixins.Input.props.appendIcon',
-      prevIcon: 'Mixins.Input.props.prependIcon'
+      prevIcon: 'Mixins.Input.props.prependIcon',
+      noWrappedExpandSlots: 'Prevent wrapping expand slot content to additional elements. It allows to render rows with columns without breaking table view, but disables expanding transition'
     }
   },
   scopedSlots: {
